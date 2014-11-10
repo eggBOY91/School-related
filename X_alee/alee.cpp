@@ -52,10 +52,8 @@ o citim din fiser;
 */
 int L[100][100] {};
 
-//f >> ps.lin >> ps.col >> pc.lin >> pc.col;
-
 int unused; // marimea matricei, dar nu o folosim
-int catiCopaciSunt_DE_ATATEA_ORI_SUGI_PULA;
+int catiCopaciSunt_DE_ATATEA_ORI_SUGI_PULA; // nume interesant
 
 f >> unused >> catiCopaciSunt_DE_ATATEA_ORI_SUGI_PULA;
 
@@ -107,6 +105,6 @@ while (prim <= ultim && L[pc.lin][pc.col] == 0)
 if(L[pc.lin][pc.col] == 0) // daca pozitia finala nu a fost vizitata (este inca 0)
     cout << "Nu prea merge..";
 else
-    cout << "Ai mers vreo " << L[pc.lin][pc.col] << " pasi si ai ajuns. GG WP.";
+    cout << "Ai mers vreo " << L[pc.lin][pc.col] << " pasi si ai ajuns.";
 return 0;
 }
