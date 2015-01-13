@@ -53,13 +53,13 @@ o citim din fiser;
 int L[100][100] {};
 
 int unused; // marimea matricei, dar nu o folosim
-int catiCopaciSunt_DE_ATATEA_ORI_SUGI_PULA; // nume interesant
+int catiCopaciSunt;
 
-f >> unused >> catiCopaciSunt_DE_ATATEA_ORI_SUGI_PULA;
+f >> unused >> catiCopaciSunt;
 
 int cLin, cCol; // copac linie, copac coloana
 
-for(int i = 0; i < catiCopaciSunt_DE_ATATEA_ORI_SUGI_PULA; i++)
+for(int i = 0; i < catiCopaciSunt; i++)
 {
     f >> cLin >> cCol;
     L[cLin][cCol] = -1;
